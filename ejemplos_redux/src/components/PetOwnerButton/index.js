@@ -20,7 +20,7 @@ const PetOwnerButton = ({ onClick, isHidden = false, onDelete, onCreate }) => {
                         value={id}
                         onChange={e => changeId(e.target.value)}
                     />
-                    <button className='delete-button' onClick={() => onDelete(id)}>
+                    <button className='deleting-owner-button' onClick={() => onDelete(id)}>
                         {'Eliminar'}
                     </button>
                     <input className='inputNormal'
@@ -29,10 +29,10 @@ const PetOwnerButton = ({ onClick, isHidden = false, onDelete, onCreate }) => {
                         value={name}
                         onChange={e => changeName(e.target.value)}
                     />
-                    <button className='create-button' onClick={() => onCreate(name)}>
+                    <button className='creating-owner-button' onClick={() => onCreate(name)}>
                         {'Crear'}
                     </button>
-                    <button className='pet-owners-button' onClick={onClick}>
+                    <button className='all-pet-owners-button' onClick={onClick}>
                         {'Todos'}
                     </button>
                     
