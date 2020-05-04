@@ -1,0 +1,47 @@
+.pet-owners-button {
+    background: #FF8000;
+    border-radius: 10px;
+    top: 150px;
+    color: white;
+    font-size: 16px;
+    height: 50px;
+    position: fixed;
+    right: 20px;
+    width: 70px;
+    z-index: 2;
+}
+
+.delete-button {
+    background: #FF0040;
+    border-radius: 10px;
+    top: 150px;
+    color: white;
+    font-size: 16px;
+    height: 50px;
+    /*position: fixed;*/
+    right: 110px;
+    width: 80px;
+    z-index: 2;
+    margin-right: 20px;
+}
+
+.create-button {
+    background: #04B431;
+    border-radius: 10px;
+    top: 150px;
+    color: white;
+    font-size: 16px;
+    height: 50px;
+    /*position: fixed;*/
+    right: 200px;
+    width: 80px;
+    z-index: 2;
+    
+}
+
+.inputNormal{
+    border-color: hotpink;
+    background-color: black;
+    color:white;
+    height: 45px;
+}
